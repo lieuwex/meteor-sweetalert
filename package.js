@@ -12,7 +12,8 @@ Package.onUse(function(api) {
     api.add_files([
         'sweetalert/lib/sweet-alert.html',
         'sweetalert/lib/sweet-alert.css',
-        'sweetalert/lib/sweet-alert.js'
+        'sweetalert/lib/sweet-alert.js',
+        'sweetalert/lib/ie9.css'
     ], ['client']);
 
     if(api.export){
